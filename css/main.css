@@ -5,7 +5,8 @@ body, h1, h2, p, ul, li {
 
 body {
     background-color: #f0f0f0; /* Replace with background color */
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Style the navigation bar */
@@ -91,6 +92,16 @@ header p {
 .program-section a:hover {
     color: #555; 
 }
+
+.images {
+    transition: transform 0.5s, opacity 0.5s;
+}
+      
+
+.images:hover {
+    transform: translateX(10px);
+    opacity: 0.7;
+  }
 
 @media screen and (min-width: 730px) {
     nav ul.menu li {
