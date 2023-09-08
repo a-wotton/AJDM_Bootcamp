@@ -5,8 +5,8 @@ body, h1, h2, p, ul, li {
 
 body {
     background-color: #f0f0f0; /* Replace with background color */
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #333;
 }
 
 /* Style the navigation bar */
@@ -15,12 +15,31 @@ h1 {
     margin-left: 15px;
 }
 
+h2 {
+    margin-bottom: 5px;
+}
+
+.container {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 14px;
+}
+
 nav {
-    background-color: #333; 
+    background-color: red; 
     color: #fff;
     padding: 10px 0;
 
     align-items: center;
+}
+
+nav img {
+    width: 50px;
+    justify-self: end;
 }
 
 nav .container {
@@ -68,6 +87,19 @@ header p {
     font-size: 18px;
 }
 
+#program {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#program p {
+    margin-bottom: 5px;
+}
+
+#program a {
+    color: red;
+}
+
 .program-section {
     background-color: #fff;
     padding: 40px 0;
@@ -104,12 +136,26 @@ header p {
   }
 
 @media screen and (min-width: 730px) {
-    nav ul.menu li {
+
+.container p {
+    font-size: 16px;
+}
+
+nav ul.menu li {
     display: inline;
     font-size: 14px;
 }
+
+nav img {
+    display: none;
+}
+
 .menu {
     justify-self: end;
+}
+
+.info .container {
+    text-align: left;
 }
 }
 
