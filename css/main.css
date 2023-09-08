@@ -72,6 +72,22 @@ nav ul.menu li a {
     font-weight: bold;
 }
 
+/* Navigation Links Hover_ Animation */
+
+/* Stylizing the navigation links */
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s; /* Added a transition for smooth hover effect */
+}
+
+/* Apply the hover effect */
+nav ul.menu li a:hover {
+    color: #646469; /* Change the text color on hover */
+    text-decoration: underline; /* Added underline on hover */
+}
+
 header {
     background-color: #555; 
     color: #fff;
