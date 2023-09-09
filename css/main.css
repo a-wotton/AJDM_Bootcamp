@@ -11,12 +11,37 @@ body {
 
 /* Style the navigation bar */
 
+.hidden {
+    display: none;
+}
+
 h1 {
     margin-left: 15px;
 }
 
 h2 {
     margin-bottom: 5px;
+}
+
+.mobile-menu {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.mobile-menu li {
+    border-top: solid 2px #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mobile-menu li:last-of-type {
+    border-bottom: solid 2px #fff;
+}
+
+.mobile-menu li a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .container {
@@ -92,7 +117,7 @@ header {
     background-color: #555; 
     color: #fff;
     text-align: center;
-    padding: 80px 0;
+    padding: 10px 0;
 }
 
 header h1 {
@@ -101,6 +126,10 @@ header h1 {
 
 header p {
     font-size: 18px;
+}
+
+#about h2 {
+    margin-top: 20px;
 }
 
 #program {
@@ -259,16 +288,239 @@ header p {
 
 
 
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0; /* Replace with background color */
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+/* Style the navigation bar */
+
+
+
+/*from testimonials to footer*/
+
 .images {
     transition: transform 0.5s, opacity 0.5s;
+    width: 100%;
+    border-radius: 30px;
 }
       
 
 .images:hover {
-    transform: translateX(10px);
+    transform: translateX(10px) scale(0.6);
     opacity: 0.7;
   }
 
+  .img_text {
+    margin: auto;
+  }
+
+
+
+  .carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .grid-con {
+    display: flex;
+    animation: galleryAnimation 5s infinite linear; /* This will loop 10 times */
+}
+
+
+@keyframes galleryAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel:hover .grid-con {
+    animation-play-state: paused;
+}
+
+
+
+
+.container.hero video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/*contact form*/
+
+.form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fadfdf;
+    border: 1px solid #ccc;
+  }
+  
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fadfdf;
+  }
+  
+  button[type="submit"] {
+    background-color: #ac3030;
+    color: white;
+    margin-top: 22px;
+    padding: 25px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #681212;
+  }
+  
+
+
+.social{
+    width: auto;
+    height: 100px;
+    mix-blend-mode: screen;
+    color: white;
+    padding: 3px;
+}
+
+
+/* Default styles for all screen sizes */
+.hero-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero-container img {
+        max-height: 80%; 
+        object-fit: cover;
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .hero-container img {
+        max-height: 60%;
+        object-fit: cover;
+    }
+  }
+  
+
+
+
+  /* Add this CSS to style your event cards */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card 5 pixels up on hover */
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+    background-color: #fadfdf;
+}
+
+
+
+
+
+  /* Add this CSS to style your event cards */
+  .p_card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.p_card  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.p_card  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.p_card  li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+#students img {
+    border-radius: 100px;
+    height: 150px;
+
+}
 @media screen and (min-width: 730px) {
 
 .container p {
@@ -280,9 +532,11 @@ nav ul.menu li {
     font-size: 14px;
 }
 
-nav img {
+#hammenu {
     display: none;
 }
+
+.mobile-menu {display: none;}
 
 .menu {
     justify-self: end;

@@ -15,9 +15,18 @@
         <!-- Navigation Bar -->
         <div id="banner" class="full-width-grid-con"></div>
         <nav class="grid-con">
-                    <h1 class="col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4" >IDP Showcase</h1>
-                    <img class="col-start-4 col-end-5" src="images/hammenu.svg" alt="hamburger menu">
-                    <ul class="menu m-col-start-4 m-col-end-9 l-col-start-5 l-col-end-13">
+                <h1 class="col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4" >IDP Showcase</h1>
+                <img id="hammenu" class="col-start-4 col-end-5" src="images/hammenu.svg" alt="hamburger menu">
+                <ul class="menu m-col-start-4 m-col-end-9 l-col-start-5 l-col-end-13">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#program">Program</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#students">Students</a></li>
+                    <li><a href="#event">Event</a></li>
+                </ul>
+
+                <ul class="hidden mobile-menu col-start-3 col-end-5">
                     <li><a href="#about">About</a></li>
                     <li><a href="#program">Program</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -29,7 +38,8 @@
     
         <!-- Header Section -->
         <header id="about" class="grid-con">
-            <div class="container grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+            <div class="container hero grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12">
+                <video src="video/Final_Output.mp4" type="video/mp4" controls="controls"></video>
                 <h2>Welcome to IDP Showcase</h2>
                 <p>Explore the world of interactive media design.</p>
             </div>
@@ -64,17 +74,12 @@
             </div>
         </section>
     
-       <!-- Testimonials Section -->
+        <!-- Testimonials Section -->
         <section id="testimonials" class="grid-con">
-            <div class="container grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
                 <h2>Testimonials</h2>
-                <div id="testimonial-container">
-                    <!-- Testimonials will be displayed here using JavaScript -->
-                </div>
-                <button id="loadTestimonials">Load Testimonials</button>
             </div>
-<<<<<<< Updated upstream
-=======
+
             <div class="test_text col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box">
                 <h3>John Webb</h3>
                 <p>"If you are a business owner, and you don't have industry nights in your toolkit just yet, I highly
@@ -109,69 +114,213 @@
                 <h3>Jane Smith</h3>
                 <p>"I have tried a few software of this kind and industry nights is the best by far!"</p>
             </div>
->>>>>>> Stashed changes
+
+
+
+
+
         </section>
 
-    
-        <!-- Student Portfolios Section -->
-        <section id="students" class="grid-con">
-            <div class="container grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <h2>Student Portfolios</h2>
-                <ul class="student-list">
-                    <!-- Display student portfolios dynamically using JavaScript -->
-                </ul>
-            </div>
-        </section>
-    
+
+
+
         <!-- Industry Night Event Section -->
         <section id="event" class="grid-con">
-            <div class="container grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <h2>Industry Night Event</h2>
-                <p>Join us on <strong> April 3,2024</strong> for Industry Night at:</p>
-                <p>
-                    <strong>Location:</strong><br>
-                    137 Dundas St<br>
-                    Fanshawe LDA Building<br>
-                    London, ON N6A 1E9<br>
-                    THE GOOD FOUNDATION INC. THEATRE
-                </p>
-                <p>The SDPA Industry Night for 2023 will showcase student projects and activities from the Interactive Media Design Program.</p>
-                <p>Meet and mingle with faculty and students, tour the facilities, and hear about upcoming projects and programs in the School of Digital and Performing Arts.</p>
-                <p>Event Schedule:</p>
+            <div class="grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+                <h2>Details of the Event Night</h2>
+            </div>
+            <div class="card container grid-item col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <h3>Date & Time</h3>
+                <p><strong>Date:</strong> April 23, 2024</p>
+                <p><strong>Time:</strong> 4:00 PM - 8:00 PM</p>
+            </div>
+            <div class="card container grid-item col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <h3>Location</h3>
+                <p><strong>Address:</strong></p>
+                <p>137 Dundas St</p>
+                <p>Fanshawe LDA Building</p>
+                <p>London, ON N6A 1E9</p>
+                <p><strong>Venue:</strong></p>
+                <p>THE GOOD FOUNDATION INC. THEATRE</p>
+            </div>
+            <div class="card container grid-item col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <h3>Event Details</h3>
+                <p>The SDPA Industry Night for 2023 will showcase student projects </p>
+                <p>and activities from the Interactive Media Design Program.</p>
+                <p>Meet and mingle with faculty and students, tour the facilities, and </p>
+                <p> about upcoming projects and programs in the School of Digital and Performing Arts.</p>
+            </div>
+            <div class="card container grid-item col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <h3>Event Schedule</h3>
                 <ul>
-                    <li><strong>12:00-2:00</strong> - Second-year students present projects to some industry guests and first-year students</li>
+                    <li><strong>12:00-2:00</strong> - Second-year students present projects to some industry guests and
+                        first-year students</li>
                     <li><strong>4:00-4:30</strong> - Industry members and guests arrive.</li>
                     <li><strong>4:30-5:30</strong> - Student Spotlight presentations</li>
                     <li><strong>5:30-6:30</strong> - Food & Drinks, Mingle/Networking</li>
-                    <li><strong>6:30-8:00</strong> - Industry members and guests head upstairs (420 and 422) for student portfolio viewing.</li>
+                    <li><strong>6:30-8:00</strong> - Industry members and guests head upstairs (420 and 422) for student
+                        portfolio viewing.</li>
                 </ul>
-                <!-- Include any additional event details here -->
             </div>
         </section>
 
-           <!-- Industry Night Gallery -->
-           <section id="gallery">
-                <h2 class="hidden">Gallery</h2>
-                <div class="grid-con">
-                   <img class="images desktop l-col-span-5 xl-col-span-5 box" src="images/in_pic (1).jpg" alt="pic_1">
-                   <h2 class="col-span-4 m-col-span-12 l-col-span-2 xl-col-span-2 box">Glimpse from our previous night events</h2>
-                   <img class="images desktop  l-col-span-5 xl-col-span-5 box" src="images/in_pic (2).jpg" alt="pic_2">
-                   <img class="images desktop  l-col-span-4 xl-col-span-4 box" src="images/in_pic (3).jpg" alt="pic_3">
-                   <img class="images desktop  l-col-span-4 xl-col-span-4 box" src="images/in_pic (4).jpg" alt="pic_4">
-                   <img class="images desktop  l-col-span-4 xl-col-span-4 box" src="images/in_pic (5).jpg" alt="pic_5">
-                   <img class="images desktop  l-col-span-6 xl-col-span-6 box" src="images/in_pic (6).jpg" alt="pic_6">
-                   <img class="images desktop  l-col-span-6 xl-col-span-6 box" src="images/in_pic (7).jpg" alt="pic_7">
+        <!-- Industry Night Gallery  -->
+        <section id="gallery">
+            <h2 class="hidden">Gallery</h2>
+            <div class="grid-con">
+                <img class="images desktop tablet m-col-span-5 l-col-span-5 xl-col-span-5 box" src="images/in_pic (1).jpg"
+                    alt="pic_1">
+                <h2 class="img_text desktop tablet m-col-span-12 l-col-span-2 xl-col-span-2 box">Glimpse from previous night events</h2>
+                <img class="images desktop tablet m-col-span-5 l-col-span-5 xl-col-span-5 box" src="images/in_pic (2).jpg"
+                    alt="pic_2">
+            </div>
+
+            <div class="grid-con">
+                <img class="images desktop tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/in_pic (3).jpg"
+                    alt="pic_3">
+                <img class="images desktop tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/in_pic (4).jpg"
+                    alt="pic_4">
+                <img class="images desktop tablet m-col-span-4 l-col-span-4 xl-col-span-4 box" src="images/in_pic (5).jpg"
+                    alt="pic_5">
+            </div>
+
+            <div class="grid-con">
+                <img class="images desktop tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/in_pic (6).jpg"
+                    alt="pic_6">
+                <img class="images desktop tablet m-col-span-6 l-col-span-6 xl-col-span-6 box" src="images/in_pic (7).jpg"
+                    alt="pic_7">
+            </div>
+
+
+            <div class="carousel mobile">
+                <h2 class="img_text mobile col-span-4  box">Glimpse from previous night events</h2>
+                <div class="grid-con mobile col-span-4 box">
+                    <img src="images/in_pic (1).jpg" alt="pic_1">
+                    <img src="images/in_pic (2).jpg" alt="pic_2">
+                    <img src="images/in_pic (3).jpg" alt="pic_3">
+                    <img src="images/in_pic (4).jpg" alt="pic_4">
+                    <img src="images/in_pic (5).jpg" alt="pic_5">
+                    <img src="images/in_pic (6).jpg" alt="pic_6">
+                    <img src="images/in_pic (7).jpg" alt="pic_7">
                 </div>
+
+            </div>
         </section>
-    
+
+
+
+
+
+
+
+        <!-- Student Portfolios Section -->
+        <section id="students" class="grid-con">
+            <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
+                <h2>Student's Portfolio Desk</h2>
+            </div>
+
+            <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <img src="images/aidan.jpg" alt="Portfolio 1">
+                <h3>Aidan Wotton</h3>
+                <p><a href="www.a_wotton.com">www.a_wotton.com</a></p>
+            </div>
+            <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <img src="images/dev.jpg" alt="Portfolio 2">
+                <h3>Dev Pandya</h3>
+                <p><a href="www.d_pandya.com">www.d_pandya.com</a></p>
+            </div>
+            <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <img src="images/jeet.jpg" alt="Portfolio 3">
+                <h3>Jeet Patel</h3>
+                <p><a href="www.j_patel.com">www.j_patel.com</a></p>
+            </div>
+            <div class="p_card col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                <img src="images/sahil.jpg" alt="Portfolio 4">
+                <h3>Sahilkumar Gosaliya</h3>
+                <p><a href="www.s_gosaliya.com">www.s_gosaliya.com</a></p>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!--Form fields-->
+
+
+
+        <section>
+            <h2 class="hidden">form</h2>
+            <h2 class="box">Sign Up Here to get the Latest Updates</h2>
+            <form class="form">
+
+                <section class="grid-con">
+
+                    <div class="form-group col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                        <label for="firstName"></label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    </div>
+
+
+                    <div class="form-group col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box">
+                        <label for="lastName"></label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                    </div>
+
+                    <div class="form-group col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group col-span-4 m-col-span-2 l-col-span-2 xl-col-span-2">
+                        <button type="submit">Submit</button>
+                    </div>
+
+
+                </section>
+
+            </form>
+
+        </section>
+
+
+
+
+
         <!-- Footer Section -->
         <footer class="grid-con">
-            <div class="container grid-item col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                <p>&copy; 2023 FANSHAWE</p>
-            </div>
+
+            <section class="container grid-item col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+                <h3> itservicedesk@fanshawec.ca</h3>
+                <h3> 519-452-4430</h3>
+                <h3> 1001 Fanshawe College Blvd</h3>
+
+            </section>
+
+            <section class="container grid-item col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+                <div>
+                    <img src="images/f_logo.svg" height="100px" width="100px">
+                    <h3>copyright @ fanshawe 2023</h3>
+                </div>
+            </section>
+
+            <section class="container grid-item col-span-4 m-col-span-4 l-col-span-4 xl-col-span-4 box">
+
+                <a href="https://www.instagram.com/fanshawecollege/?hl=en"> <img class="social" src="images/insta.png">
+                </a>
+                <a href="https://www.youtube.com/myfanshawe"> <img class="social" src="images/yt.png"> </a>
+                <a href="https://www.facebook.com/FanshaweCollege/"> <img class="social" src="images/fb.png"> </a>
+                <h3><a href="https://chat.fanshawec.ca/"> Our Live Chat Server </a></h3>
+
+
+
+            </section>
+
         </footer>
-    
+
         <!-- JavaScript for dynamic content -->
         <script src="./js/main.js"></script>
-</body>
+    </body>
+
 </html>
