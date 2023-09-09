@@ -1,4 +1,4 @@
-# AJDM_Bootcamp
+# AJDS_Bootcamp
 
 # Student Portfolio Showcase Website
 
@@ -47,3 +47,12 @@ The website will also feature information about the Interactive Media Design pro
 - Display testimonials from data objects.
 - Implement a mobile-specific menu using CSS and/or JavaScript.
 - Create a GitHub repository with a detailed Readme file and continuously merge changes to the master branch.
+
+## License 
+MIT
+
+## Credits
+Aiden Wotton 
+Dev Pandya
+Jeet Patel
+Sahilkumar Gosaliya
