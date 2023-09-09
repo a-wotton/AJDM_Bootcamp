@@ -1,9 +1,9 @@
 ![BOOT CAMP](images/hero_img_desk.jpg)
 
 # team_knight_boot_camp_project
-
-# Student Portfolio Showcase Website for industry night for April, 2024
-
+ 
+An Industry Night Event 
+ 
 # Overview
 
 Welcome to the Student Portfolio Showcase Website project! This collaborative effort involves students from Interactive Media Design program classes at Fanshawe College. The goal of this project is to design and develop a mobile-first, responsive website that will serve as a platform for students to showcase their skills, projects, and achievements to potential employers, industry professionals, and peers attending the upcoming Industry Night event in April. 
@@ -39,7 +39,7 @@ The project spans various MMED courses, each with specific objectives. In MMED-3
 MIT
 
 # Credits
-Aiden Wotton 
-Dev Pandya
-Jeet Patel
+Aiden Wotton, 
+Dev Pandya,
+Jeet Patel,
 Sahilkumar Gosaliya
