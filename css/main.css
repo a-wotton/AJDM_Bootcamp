@@ -213,7 +213,7 @@ header p {
     background: url('../images/background2.png') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
-    padding: 40px 0;
+    padding-top: 40px; 
     color: #fff;
 }
 
@@ -244,8 +244,8 @@ header p {
     background: url('../images/background2.png') no-repeat center center fixed; 
     background-size: cover;
     text-align: center;
-    padding: 40px 0;
     color: #fff;
+    padding: 0;
 }
 
 #projects h2 {
