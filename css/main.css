@@ -411,7 +411,7 @@ body {
 .social{
     width: auto;
     height: 100px;
-    mix-blend-mode: screen;
+    
     color: white;
     padding: 3px;
 }
