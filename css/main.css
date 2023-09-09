@@ -191,6 +191,17 @@ header p {
     color: #fff;
 }
 
+/* Hidden content */
+.accordion-content .description {
+    display: none;
+}
+
+.accordion-content .description.show {
+    display: block;
+}
+
+
+
 
 
 
