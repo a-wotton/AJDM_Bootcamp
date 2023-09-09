@@ -58,7 +58,6 @@
    margin: 0px auto;
    padding-left: 15px;
    padding-right: 15px;
-   /*padding: 0px 15px 0px 15px;*/
  }
  
  .col-span-auto {
@@ -150,7 +149,7 @@
  
  /* 3. ---Tablet Library Grid Styles--- */
  
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 730px) {
  
    /*body {
      background: #ff0000;
@@ -166,10 +165,9 @@
      grid-template-columns: repeat(12, minmax(0, 1fr));
      grid-column-gap: 30px;
      max-width: 1199px;
-     /*--remove below when you fully understand the passing of rules and values(this rule only)--*/
-     margin: 0px auto;
      padding-left: 15px;
      padding-right: 15px;
+     /*--remove below when you fully understand the passing of rules and values(this rule only)--*/
    }
  
    .m-col-span-1 {
