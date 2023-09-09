@@ -334,7 +334,7 @@ body {
     width: 400px;
     display: block;
     margin: 0 auto;
-    box-shadow: #681212 10px 10px 15px;
+    box-shadow: #681212 20px 20px 20px;
 }
 
 
@@ -420,7 +420,9 @@ body {
 }
 
 
-
+#testimonials {
+    background-color: whitesmoke;
+}
 
 
 /*it ends here*/
@@ -498,7 +500,7 @@ body {
 .card:hover {
     transform: translateY(-5px); /* Move the card 5 pixels up on hover */
     transition: transform 0.2s ease; /* Add a smooth transition effect */
-    background-color: #fadfdf;
+    background-color: #b9b8b8;
 }
 
 
