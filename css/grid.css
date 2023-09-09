@@ -165,8 +165,8 @@
      grid-template-columns: repeat(12, minmax(0, 1fr));
      grid-column-gap: 30px;
      max-width: 1199px;
-     padding-left: 15px;
-     padding-right: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
      /*--remove below when you fully understand the passing of rules and values(this rule only)--*/
    }
  
