@@ -11,12 +11,37 @@ body {
 
 /* Style the navigation bar */
 
+.hidden {
+    display: none;
+}
+
 h1 {
     margin-left: 15px;
 }
 
 h2 {
     margin-bottom: 5px;
+}
+
+.mobile-menu {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.mobile-menu li {
+    border-top: solid 2px #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mobile-menu li:last-of-type {
+    border-bottom: solid 2px #fff;
+}
+
+.mobile-menu li a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .container {
@@ -198,9 +223,11 @@ nav ul.menu li {
     font-size: 14px;
 }
 
-nav img {
+#hammenu {
     display: none;
 }
+
+.mobile-menu {display: none;}
 
 .menu {
     justify-self: end;
