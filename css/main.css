@@ -134,7 +134,7 @@ header p {
 
 #program {
     margin-top: 20px;
-    margin-bottom: 25px;
+   
 }
 
 #program p {
@@ -162,13 +162,38 @@ header p {
 
 .program-section a {
     text-decoration: none;
-    color: #333; 
+    color: #333;
     font-weight: bold;
 }
 
 .program-section a:hover {
-    color: #555; 
+    color: #333; 
 }
+
+/* About Section Background Image */
+
+#about   {
+    background: url('../images/Red_Background.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+
 
 /* Program Section Background Code */
 #program {
@@ -193,12 +218,33 @@ header p {
 
 #program a {
     text-decoration: none;
-    color: #333;
+    color: red;
     font-weight: bold;
 }
 
 #program a:hover {
-    color: #555;
+    color:red;
+}
+
+/* Projects Section Background Code */
+#projects   {
+    background: url('../images/background2.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#projects p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
 }
 
 
