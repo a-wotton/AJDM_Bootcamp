@@ -143,6 +143,7 @@ header p {
 
 #program a {
     color: red;
+    text-align: left;
 }
 
 .program-section {
@@ -184,6 +185,8 @@ header p {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+    padding-top: 30px;
+    font-size: 24px;
 }
 
 #about p {
@@ -247,6 +250,9 @@ header p {
     color: #fff;
 }
 
+#promo-vid {
+    width: 400px;
+}
 
 body, h1, h2, p, ul, li {
     margin: 0;
@@ -490,6 +496,12 @@ body {
 nav ul.menu li {
     display: inline;
     font-size: 14px;
+    margin-right: 5px;
+}
+
+.info h2, p{
+    text-align: left;
+}
 }
 
 #hammenu {
@@ -502,9 +514,17 @@ nav ul.menu li {
     justify-self: end;
 }
 
-.info .container {
-    text-align: left;
+#promo-vid {
+    width: 700px;
 }
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 20px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -515,5 +535,24 @@ nav ul.menu li {
     nav ul.menu li {
         font-size: 16px;
         margin-right: 20px;
+    }
+
+ #promo-vid {
+    width: 1000px;
+ }
+
+ #about h2 {
+    font-size: 48px;
+}
+
+#about p {
+    font-size: 36px;
+}
+
+}
+
+@media screen and (min-width: 1500px) {
+    #promo-vid {
+        width: 1200px;
     }
 }
