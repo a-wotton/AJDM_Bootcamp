@@ -246,6 +246,46 @@ header p {
     line-height: 1.5;
     color: #fff;
 }
+/*Event Section Backgroud Code*/
+
+#event   {
+    background: url('../images/white_backgroud.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#event h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+#event p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+}
+
+/* Gallery Section Background Code */
+
+#gallery   {
+    background: url('../images/white_backgroud.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#gallery h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
 
 
 body, h1, h2, p, ul, li {
