@@ -284,6 +284,49 @@ header p {
     color: black;
 }
 
+/* Students Section Background Code */
+
+#students   {
+    background: url('../images/background2.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#students h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Form Section Background Code */
+
+#form   {
+    background-color: #040707;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+#form h2{
+    color: white;
+}
+
+/* Footer Section Backgroud Code */
+
+footer   {
+    background-color:  #040707;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer h3{
+    color: white;
+}
 
 
 
@@ -442,7 +485,7 @@ body {
 
 
 
-  /* Add this CSS to style your event cards */
+  /* Added this card */
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -456,7 +499,7 @@ body {
 .card h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #333;
+    color: #555;
 }
 
 .card p {
@@ -479,17 +522,17 @@ body {
 
 .card:hover {
     transform: translateY(-5px); /* Move the card 5 pixels up on hover */
-    transition: transform 0.2s ease; /* Add a smooth transition effect */
-    background-color: #fadfdf;
+    transition: transform 0.2s ease; /*  transition effect */
+    background-color: #c4c4c4;
 }
 
 
 
 
 
-  /* Add this CSS to style your event cards */
+  /* Added CSS to stylized event cards */
   .p_card {
-    background-color: #fff;
+    background-color: #c4c4c4;
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
@@ -501,18 +544,18 @@ body {
 .p_card  h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #333;
+    color: #fff;
 }
 
 .p_card  p {
     font-size: 16px;
-    color: #555;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .p_card  li {
     font-size: 16px;
-    color: #555;
+    color: #fff;
     margin-bottom: 5px;
 }
 
