@@ -78,10 +78,6 @@ nav .logo {
     font-weight: bold;
 }
 
-menu {
-    display: none;
-}
-
 nav ul.menu {
     list-style: none;
 }
@@ -542,7 +538,7 @@ nav ul.menu li {
 .info h2, p{
     text-align: left;
 }
-}
+
 
 #hammenu {
     display: none;
@@ -565,6 +561,7 @@ nav ul.menu li {
 #about p {
     font-size: 20px;
     text-align: center;
+}
 }
 
 @media screen and (min-width: 1200px) {
