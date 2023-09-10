@@ -1,4 +1,4 @@
-![BOOT CAMP](images/hero_img_desk.jpg)
+![BOOT CAMP](images/Thumbnail_for_video.png)
 
 # team_knight_boot_camp_project
  

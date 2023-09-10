@@ -7,7 +7,7 @@ body, h1, h2, p, ul, li {
 body {
     background-color: #f0f0f0; /* Replace with background color */
     font-family: 'Montserrat','Open Sans'; /* font theme is 'Montserrat' & open sans */
-    color: #333;
+    color: rgb(109, 109, 109);
 }
 
 h1 h2 h3 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 a {
-    color: #ac3030;
+    color: #df4646;
 }
 
 .mobile-menu {
@@ -270,18 +270,6 @@ header p {
 }
 
 
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #f0f0f0; /* Replace with background color */
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    color: #333;
-}
-
 /* Style the navigation bar */
 
 
@@ -313,13 +301,13 @@ body {
 
 .carousel .grid-con {
     display: flex;
-    animation: galleryAnimation 5s infinite linear; /* This will loop 10 times */
+    animation: galleryAnimation 30s infinite linear; 
 }
 
 
 @keyframes galleryAnimation {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(300%); }
+    100% { transform: translateX(-300%); }
 }
 
 .carousel img {
@@ -378,8 +366,8 @@ body {
     width: 100%;
     padding: 25px;
     border-radius: 5px;
-    background-color: #fadfdf;
     border: 1px solid #ccc;
+    background-color: #c9c3c3;
   }
   
   
@@ -388,7 +376,7 @@ body {
     padding: 25px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #fadfdf;
+    background-color: #c9c3c3;
   }
   
   button[type="submit"] {
@@ -411,7 +399,7 @@ body {
 .social{
     width: auto;
     height: 100px;
-    
+    mix-blend-mode: overlay;
     color: white;
     padding: 3px;
 }
@@ -422,6 +410,10 @@ body {
     text-align: center;
     padding: 40px 0;
     background-color: rgb(110, 103, 103);
+}
+
+#footer h3 {
+    color: whitesmoke;
 }
 
 
