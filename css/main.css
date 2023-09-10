@@ -36,6 +36,7 @@ a {
     color: #df4646;
 }
 
+
 .mobile-menu {
     list-style-type: none;
     text-align: right;
@@ -276,6 +277,22 @@ header p {
 
 /*from testimonials to footer*/
 
+
+
+.test_text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 2s;
+    padding-bottom: 50px;
+}
+
+.test_text.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
 .images {
     transition: transform 0.5s, opacity 0.5s;
     width: 100%;
@@ -340,8 +357,28 @@ header p {
 }
 
 
+.portfolio-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 2s;
+    padding-bottom: 50px;
+}
 
-
+.portfolio-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.portfolio-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.portfolio-item a {
+    color: #333;
+    text-decoration: none;
+}
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
 
 /*contact form*/
 
@@ -408,7 +445,7 @@ header p {
 #footer { 
     background-size: cover;
     text-align: center;
-    padding: 40px 0;
+    /* padding: 40px 0; */
     background-color: rgb(110, 103, 103);
 }
 
@@ -468,6 +505,16 @@ header p {
     padding: 40px 0;
     color: #fff;
 }
+
+
+#portfolio-list   {
+    background: url('../images/white_backgroud.png') no-repeat center center fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
 
 .card {
     background-color: #fff;
