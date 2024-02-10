@@ -1,0 +1,144 @@
+header {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.mobile-menu {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.mobile-menu li {
+    border-top: solid 2px #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mobile-menu li:last-of-type {
+    border-bottom: solid 2px #fff;
+}
+
+.mobile-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 14px;
+}
+
+nav {
+    background-color: red;
+    color: #fff;
+    padding: 10px 0;
+
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    justify-self: end;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+menu {
+    display: none;
+}
+
+nav ul.menu {
+    list-style: none;
+}
+
+nav ul.menu li {
+    display: none;
+    margin-right: 15px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
+
+/* Navigation Links Hover_ Animation */
+
+/* Stylizing the navigation links */
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+    /* Added a transition for smooth hover effect */
+}
+
+/* Apply the hover effect */
+nav ul.menu li a:hover {
+    color: #646469;
+    /* Change the text color on hover */
+    text-decoration: underline;
+    /* Added underline on hover */
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (min-width: 730px) {
+    nav ul.menu li {
+        display: inline;
+        font-size: 14px;
+    }
+
+    #hammenu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .menu {
+        justify-self: end;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav ul.menu li {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+}

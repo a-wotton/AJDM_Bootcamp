@@ -1,0 +1,30 @@
+.social {
+    width: auto;
+    height: 100px;
+    mix-blend-mode: overlay;
+    color: white;
+    padding: 3px;
+}
+
+#footer {
+    background-size: cover;
+    text-align: center;
+    /* padding: 40px 0; */
+    background-color: rgb(110, 103, 103);
+}
+
+#footer h3 {
+    color: whitesmoke;
+}
+
+.accordion-content .description {
+    display: none;
+}
+
+.accordion-content .description.show {
+    display: block;
+}
+
+#testimonials {
+    background-color: whitesmoke;
+}
